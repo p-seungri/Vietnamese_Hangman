@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0cd90468-2675-42f7-b7a0-85fcfd49c3c2}</ProjectGuid>
+    <RootNamespace>행맨</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="행맨.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="행맨.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Alphabet\a0-1.bmp" />
+    <Image Include="Alphabet\a0-2.bmp" />
+    <Image Include="Alphabet\a0-3.bmp" />
+    <Image Include="Alphabet\a0-4.bmp" />
+    <Image Include="Alphabet\a0-5.bmp" />
+    <Image Include="Alphabet\a0-6.bmp" />
+    <Image Include="Alphabet\a1-1.bmp" />
+    <Image Include="Alphabet\a1-2.bmp" />
+    <Image Include="Alphabet\a1-3.bmp" />
+    <Image Include="Alphabet\a1-4.bmp" />
+    <Image Include="Alphabet\a1-5.bmp" />
+    <Image Include="Alphabet\a1-6.bmp" />
+    <Image Include="Alphabet\a2-1.bmp" />
+    <Image Include="Alphabet\a2-2.bmp" />
+    <Image Include="Alphabet\a2-3.bmp" />
+    <Image Include="Alphabet\a2-4.bmp" />
+    <Image Include="Alphabet\a2-5.bmp" />
+    <Image Include="Alphabet\a2-6.bmp" />
+    <Image Include="Alphabet\b.bmp" />
+    <Image Include="alphabet\bitmap1.bmp" />
+    <Image Include="Alphabet\c.bmp" />
+    <Image Include="Alphabet\d0.bmp" />
+    <Image Include="Alphabet\d1.bmp" />
+    <Image Include="Alphabet\e0-1.bmp" />
+    <Image Include="Alphabet\e0-2.bmp" />
+    <Image Include="Alphabet\e0-3.bmp" />
+    <Image Include="Alphabet\e0-4.bmp" />
+    <Image Include="Alphabet\e0-5.bmp" />
+    <Image Include="Alphabet\e0-6.bmp" />
+    <Image Include="Alphabet\e1-1.bmp" />
+    <Image Include="Alphabet\e1-2.bmp" />
+    <Image Include="Alphabet\e1-3.bmp" />
+    <Image Include="Alphabet\e1-4.bmp" />
+    <Image Include="Alphabet\e1-5.bmp" />
+    <Image Include="Alphabet\e1-6.bmp" />
+    <Image Include="Alphabet\f.bmp" />
+    <Image Include="Alphabet\g.bmp" />
+    <Image Include="Alphabet\h.bmp" />
+    <Image Include="Alphabet\i-1.bmp" />
+    <Image Include="Alphabet\i-2.bmp" />
+    <Image Include="Alphabet\i-3.bmp" />
+    <Image Include="Alphabet\i-4.bmp" />
+    <Image Include="Alphabet\i-5.bmp" />
+    <Image Include="Alphabet\i-6.bmp" />
+    <Image Include="Alphabet\j.bmp" />
+    <Image Include="Alphabet\k.bmp" />
+    <Image Include="Alphabet\l.bmp" />
+    <Image Include="Alphabet\m.bmp" />
+    <Image Include="Alphabet\n.bmp" />
+    <Image Include="Alphabet\n0.bmp" />
+    <Image Include="Alphabet\n1.bmp" />
+    <Image Include="Alphabet\n2.bmp" />
+    <Image Include="Alphabet\n3.bmp" />
+    <Image Include="Alphabet\n4.bmp" />
+    <Image Include="Alphabet\n5.bmp" />
+    <Image Include="Alphabet\n6.bmp" />
+    <Image Include="Alphabet\n7.bmp" />
+    <Image Include="Alphabet\n8.bmp" />
+    <Image Include="Alphabet\n9.bmp" />
+    <Image Include="Alphabet\o0-1.bmp" />
+    <Image Include="Alphabet\o0-2.bmp" />
+    <Image Include="Alphabet\o0-3.bmp" />
+    <Image Include="Alphabet\o0-4.bmp" />
+    <Image Include="Alphabet\o0-5.bmp" />
+    <Image Include="Alphabet\o0-6.bmp" />
+    <Image Include="Alphabet\o1-1.bmp" />
+    <Image Include="Alphabet\o1-2.bmp" />
+    <Image Include="Alphabet\o1-3.bmp" />
+    <Image Include="Alphabet\o1-4.bmp" />
+    <Image Include="Alphabet\o1-5.bmp" />
+    <Image Include="Alphabet\o1-6.bmp" />
+    <Image Include="Alphabet\o2-1.bmp" />
+    <Image Include="Alphabet\o2-2.bmp" />
+    <Image Include="Alphabet\o2-3.bmp" />
+    <Image Include="Alphabet\o2-4.bmp" />
+    <Image Include="Alphabet\o2-5.bmp" />
+    <Image Include="Alphabet\o2-6.bmp" />
+    <Image Include="Alphabet\p.bmp" />
+    <Image Include="Alphabet\q.bmp" />
+    <Image Include="Alphabet\r.bmp" />
+    <Image Include="Alphabet\s.bmp" />
+    <Image Include="Alphabet\t.bmp" />
+    <Image Include="Alphabet\u0-1.bmp" />
+    <Image Include="Alphabet\u0-2.bmp" />
+    <Image Include="Alphabet\u0-3.bmp" />
+    <Image Include="Alphabet\u0-4.bmp" />
+    <Image Include="Alphabet\u0-5.bmp" />
+    <Image Include="Alphabet\u0-6.bmp" />
+    <Image Include="Alphabet\u1-1.bmp" />
+    <Image Include="Alphabet\u1-2.bmp" />
+    <Image Include="Alphabet\u1-3.bmp" />
+    <Image Include="Alphabet\u1-4.bmp" />
+    <Image Include="Alphabet\u1-5.bmp" />
+    <Image Include="Alphabet\u1-6.bmp" />
+    <Image Include="Alphabet\v.bmp" />
+    <Image Include="Alphabet\w.bmp" />
+    <Image Include="Alphabet\x.bmp" />
+    <Image Include="Alphabet\y.bmp" />
+    <Image Include="Alphabet\z.bmp" />
+    <Image Include="DeathHead.bmp" />
+    <Image Include="Hang.ico" />
+    <Image Include="Hangman.bmp" />
+    <Image Include="Head.bmp" />
+    <Image Include="info.bmp" />
+    <Image Include="ManBloodBody.bmp" />
+    <Image Include="ManBody.bmp" />
+    <Image Include="ManLeftArm.bmp" />
+    <Image Include="ManLegs.bmp" />
+    <Image Include="ManRightArm.bmp" />
+    <Image Include="NotPleasantHead.bmp" />
+    <Image Include="SmilingHead.bmp" />
+    <Image Include="tree.bmp" />
+    <Image Include="Tree.png" />
+    <Image Include="Underscore.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

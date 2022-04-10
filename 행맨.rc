@@ -1,0 +1,318 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean (Korea) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "종료(&X)",                      ID_FILE_EXIT
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "설명서(&M)",                     ID_HELP_MANUAL
+        MENUITEM "팁(&T)",                       ID_HELP_TIP
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACKGROUND1         BITMAP                  "Hangman.bmp"
+
+IDB_BFACE               BITMAP                  "Head.bmp"
+
+IDB_BODY                BITMAP                  "ManBody.bmp"
+
+IDB_LEFTARM             BITMAP                  "ManLeftArm.bmp"
+
+IDB_LEGS                BITMAP                  "ManLegs.bmp"
+
+IDB_RIGHTARM            BITMAP                  "ManRightArm.bmp"
+
+IDB_SADFACE             BITMAP                  "NotPleasantHead.bmp"
+
+IDB_SMILEFACE           BITMAP                  "SmilingHead.bmp"
+
+IDB_UNDERSCORE          BITMAP                  "Underscore.bmp"
+
+IDB_A0_1                BITMAP                  "C:\\Users\\qkrtm\\source\\repos\\행맨\\행맨\\Alphabet\\a0-1.bmp"
+
+IDB_A0_2                BITMAP                  "C:\\Users\\qkrtm\\source\\repos\\행맨\\행맨\\Alphabet\\a0-2.bmp"
+
+IDB_A0_3                BITMAP                  "C:\\Users\\qkrtm\\source\\repos\\행맨\\행맨\\Alphabet\\a0-3.bmp"
+
+IDB_A0_4                BITMAP                  "C:\\Users\\qkrtm\\source\\repos\\행맨\\행맨\\Alphabet\\a0-4.bmp"
+
+IDB_A0_5                BITMAP                  "C:\\Users\\qkrtm\\source\\repos\\행맨\\행맨\\Alphabet\\a0-5.bmp"
+
+IDB_A0_6                BITMAP                  "C:\\Users\\qkrtm\\source\\repos\\행맨\\행맨\\Alphabet\\a0-6.bmp"
+
+IDB_A1_1                BITMAP                  "Alphabet\\a1-1.bmp"
+
+IDB_A1_2                BITMAP                  "Alphabet\\a1-2.bmp"
+
+IDB_A1_3                BITMAP                  "Alphabet\\a1-3.bmp"
+
+IDB_A1_4                BITMAP                  "Alphabet\\a1-4.bmp"
+
+IDB_A1_5                BITMAP                  "Alphabet\\a1-5.bmp"
+
+IDB_A1_6                BITMAP                  "Alphabet\\a1-6.bmp"
+
+IDB_A2_1                BITMAP                  "Alphabet\\a2-1.bmp"
+
+IDB_A2_2                BITMAP                  "Alphabet\\a2-2.bmp"
+
+IDB_A2_3                BITMAP                  "Alphabet\\a2-3.bmp"
+
+IDB_A2_4                BITMAP                  "Alphabet\\a2-4.bmp"
+
+IDB_A2_5                BITMAP                  "Alphabet\\a2-5.bmp"
+
+IDB_A2_6                BITMAP                  "Alphabet\\a2-6.bmp"
+
+IDB_B                   BITMAP                  "Alphabet\\b.bmp"
+
+IDB_C                   BITMAP                  "Alphabet\\c.bmp"
+
+IDB_D0                  BITMAP                  "Alphabet\\d0.bmp"
+
+IDB_D1                  BITMAP                  "Alphabet\\d1.bmp"
+
+IDB_E0_1                BITMAP                  "Alphabet\\e0-1.bmp"
+
+IDB_E0_2                BITMAP                  "Alphabet\\e0-2.bmp"
+
+IDB_E0_3                BITMAP                  "Alphabet\\e0-3.bmp"
+
+IDB_E0_4                BITMAP                  "Alphabet\\e0-4.bmp"
+
+IDB_E0_5                BITMAP                  "Alphabet\\e0-5.bmp"
+
+IDB_E0_6                BITMAP                  "Alphabet\\e0-6.bmp"
+
+IDB_E1_1                BITMAP                  "Alphabet\\e1-1.bmp"
+
+IDB_E1_2                BITMAP                  "Alphabet\\e1-2.bmp"
+
+IDB_E1_3                BITMAP                  "Alphabet\\e1-3.bmp"
+
+IDB_E1_4                BITMAP                  "Alphabet\\e1-4.bmp"
+
+IDB_E1_5                BITMAP                  "Alphabet\\e1-5.bmp"
+
+IDB_E1_6                BITMAP                  "Alphabet\\e1-6.bmp"
+
+IDB_F                   BITMAP                  "Alphabet\\f.bmp"
+
+IDB_G                   BITMAP                  "Alphabet\\g.bmp"
+
+IDB_H                   BITMAP                  "Alphabet\\h.bmp"
+
+IDB_I_1                 BITMAP                  "Alphabet\\i-1.bmp"
+
+IDB_I_2                 BITMAP                  "Alphabet\\i-2.bmp"
+
+IDB_I_3                 BITMAP                  "Alphabet\\i-3.bmp"
+
+IDB_I_4                 BITMAP                  "Alphabet\\i-4.bmp"
+
+IDB_I_5                 BITMAP                  "Alphabet\\i-5.bmp"
+
+IDB_I_6                 BITMAP                  "Alphabet\\i-6.bmp"
+
+IDB_J                   BITMAP                  "Alphabet\\j.bmp"
+
+IDB_K                   BITMAP                  "Alphabet\\k.bmp"
+
+IDB_L                   BITMAP                  "Alphabet\\l.bmp"
+
+IDB_M                   BITMAP                  "Alphabet\\m.bmp"
+
+IDB_N                   BITMAP                  "Alphabet\\n.bmp"
+
+IDB_N0                  BITMAP                  "Alphabet\\n0.bmp"
+
+IDB_N1                  BITMAP                  "Alphabet\\n1.bmp"
+
+IDB_N2                  BITMAP                  "Alphabet\\n2.bmp"
+
+IDB_N3                  BITMAP                  "Alphabet\\n3.bmp"
+
+IDB_N4                  BITMAP                  "Alphabet\\n4.bmp"
+
+IDB_N5                  BITMAP                  "Alphabet\\n5.bmp"
+
+IDB_N6                  BITMAP                  "Alphabet\\n6.bmp"
+
+IDB_N7                  BITMAP                  "Alphabet\\n7.bmp"
+
+IDB_N8                  BITMAP                  "Alphabet\\n8.bmp"
+
+IDB_N9                  BITMAP                  "Alphabet\\n9.bmp"
+
+IDB_O0_1                BITMAP                  "Alphabet\\o0-1.bmp"
+
+IDB_O0_2                BITMAP                  "Alphabet\\o0-2.bmp"
+
+IDB_O0_3                BITMAP                  "Alphabet\\o0-3.bmp"
+
+IDB_O0_4                BITMAP                  "Alphabet\\o0-4.bmp"
+
+IDB_O0_5                BITMAP                  "Alphabet\\o0-5.bmp"
+
+IDB_O0_6                BITMAP                  "Alphabet\\o0-6.bmp"
+
+IDB_O1_1                BITMAP                  "Alphabet\\o1-1.bmp"
+
+IDB_O1_2                BITMAP                  "Alphabet\\o1-2.bmp"
+
+IDB_O1_3                BITMAP                  "Alphabet\\o1-3.bmp"
+
+IDB_O1_4                BITMAP                  "Alphabet\\o1-4.bmp"
+
+IDB_O1_5                BITMAP                  "Alphabet\\o1-5.bmp"
+
+IDB_O1_6                BITMAP                  "Alphabet\\o1-6.bmp"
+
+IDB_O2_1                BITMAP                  "Alphabet\\o2-1.bmp"
+
+IDB_O2_2                BITMAP                  "Alphabet\\o2-2.bmp"
+
+IDB_O2_3                BITMAP                  "Alphabet\\o2-3.bmp"
+
+IDB_O2_4                BITMAP                  "Alphabet\\o2-4.bmp"
+
+IDB_O2_5                BITMAP                  "Alphabet\\o2-5.bmp"
+
+IDB_O2_6                BITMAP                  "Alphabet\\o2-6.bmp"
+
+IDB_P                   BITMAP                  "Alphabet\\p.bmp"
+
+IDB_Q                   BITMAP                  "Alphabet\\q.bmp"
+
+IDB_R                   BITMAP                  "Alphabet\\r.bmp"
+
+IDB_S                   BITMAP                  "Alphabet\\s.bmp"
+
+IDB_T                   BITMAP                  "Alphabet\\t.bmp"
+
+IDB_U0_1                BITMAP                  "Alphabet\\u0-1.bmp"
+
+IDB_U0_2                BITMAP                  "Alphabet\\u0-2.bmp"
+
+IDB_U0_3                BITMAP                  "Alphabet\\u0-3.bmp"
+
+IDB_U0_4                BITMAP                  "Alphabet\\u0-4.bmp"
+
+IDB_U0_5                BITMAP                  "Alphabet\\u0-5.bmp"
+
+IDB_U0_6                BITMAP                  "Alphabet\\u0-6.bmp"
+
+IDB_U1_1                BITMAP                  "Alphabet\\u1-1.bmp"
+
+IDB_U1_2                BITMAP                  "Alphabet\\u1-2.bmp"
+
+IDB_U1_3                BITMAP                  "Alphabet\\u1-3.bmp"
+
+IDB_U1_4                BITMAP                  "Alphabet\\u1-4.bmp"
+
+IDB_U1_5                BITMAP                  "Alphabet\\u1-5.bmp"
+
+IDB_U1_6                BITMAP                  "Alphabet\\u1-6.bmp"
+
+IDB_V                   BITMAP                  "Alphabet\\v.bmp"
+
+IDB_W                   BITMAP                  "Alphabet\\w.bmp"
+
+IDB_X                   BITMAP                  "Alphabet\\x.bmp"
+
+IDB_Y                   BITMAP                  "Alphabet\\y.bmp"
+
+IDB_Z                   BITMAP                  "Alphabet\\z.bmp"
+
+IDB_TREE                BITMAP                  "tree.bmp"
+
+IDB_DHEAD               BITMAP                  "DeathHead.bmp"
+
+IDB_BLOODBODY           BITMAP                  "ManBloodBody.bmp"
+
+IDB_INFO                BITMAP                  "info.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Hang.ico"
+
+#endif    // Korean (Korea) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

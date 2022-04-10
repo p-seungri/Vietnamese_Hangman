@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="행맨.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="행맨.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Hangman.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Head.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ManBody.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ManLeftArm.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ManLegs.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ManRightArm.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="NotPleasantHead.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SmilingHead.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tree.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Underscore.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a0-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a0-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a0-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a0-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a0-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a0-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a1-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a1-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a1-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a1-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a1-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a1-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a2-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a2-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a2-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a2-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a2-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\a2-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\b.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\c.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\d0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\d1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e0-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e0-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e0-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e0-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e0-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e0-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e1-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e1-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e1-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e1-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e1-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\e1-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\f.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\g.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\h.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\i-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\i-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\i-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\i-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\i-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\i-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\j.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\k.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\l.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\m.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\n9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o0-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o0-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o0-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o0-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o0-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o0-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o1-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o1-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o1-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o1-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o1-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o1-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o2-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o2-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o2-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o2-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o2-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\o2-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\p.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\q.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\r.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\s.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\t.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u0-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u0-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u0-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u0-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u0-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u0-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u1-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u1-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u1-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u1-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u1-5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\u1-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\v.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\w.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\x.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\y.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Alphabet\z.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tree.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DeathHead.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ManBloodBody.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="info.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hang.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="alphabet\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
