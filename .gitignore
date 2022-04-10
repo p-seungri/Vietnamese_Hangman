@@ -361,3 +361,21 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Image Files
+DeathHead.bmp
+Hang.ico
+Hangman.bmp
+Head.bmp
+info.bmp
+ManBloodBody.bmp
+ManBody.bmp
+ManLeftArm.bmp
+ManLegs.bmp
+ManRightArm.bmp
+NotPleasantHead.bmp
+SmilingHead.bmp
+Underscore.bmp
+tree.bmp
+Alphabet
+README.md
